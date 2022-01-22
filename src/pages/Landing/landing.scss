@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landingPage{
+    width: 100%;
+    height: 100vh;
+    background : url('../../assets/landing1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.landingPage_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    color : black;
+}
+
+span{
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: rgb(243, 69, 16);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.landingPage_container_button button{
+    width: 200px;
+    height: 3rem;
+    border-radius: 3rem;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #000;
+    color: #fff;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
