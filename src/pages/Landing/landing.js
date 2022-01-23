@@ -1,5 +1,6 @@
 import React from 'react';
-import './landing.scss'
+import './landing.css'
+
 
 const landing = () => {
     
@@ -18,6 +19,7 @@ const landing = () => {
         <div className='landingPage_container_button'>
             <button onClick={redirect}>Get Started</button>
         </div>
+        
     </div>
   </div>;
 };

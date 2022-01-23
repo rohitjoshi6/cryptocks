@@ -9,7 +9,7 @@
     height: 100vh;
     background-image : url('./20945257.jpg') no-repeat center center fixed;
     background-size: contain;
-
+    background-image: './landing1.jpg';
 }
 
 .landingPage_container{
@@ -17,7 +17,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    //justify-content: center;
+    justify-content: center;
     align-items: center;
     color : black;
 }
