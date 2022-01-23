@@ -1,8 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState } from 'react';
 import { Navbar,Container,Nav} from 'react-bootstrap';
-import './home.scss';
-
+import './stockprice.scss';
 
 const home = () => {
 
@@ -38,7 +37,8 @@ const home = () => {
         .then(
           console.log("Xtrue values :", xValue),
           console.log("Ytrue values :", yValue)
-        )}
+        )
+    }
 
 
   return <div className='homePage'>
@@ -71,7 +71,7 @@ const home = () => {
     </div>
 
     {/* Graph section */}
-    
+        
   </div>;
 };
 

@@ -4,7 +4,7 @@ import './landing.scss'
 const landing = () => {
     
   const redirect = () => {
-      window.location.href = '/home';  
+      window.location.href = '/crypto';  
     } 
 
   return <div className='landingPage'>

@@ -7,8 +7,9 @@
 .landingPage{
     width: 100%;
     height: 100vh;
-    background : url('../../assets/landing1.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-image : url('./20945257.jpg') no-repeat center center fixed;
+    background-size: contain;
+
 }
 
 .landingPage_container{
